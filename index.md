@@ -39,7 +39,7 @@ This project explores many recent advancements in machine learning and generativ
 
 - [CS231n Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/convolutional-networks/)
 
-- [GANGogh: Creating Art with GANs. Introduction: | by Kenny Jones](https://towardsdatascience.com/gangogh-creating-art-with-gans-8d087d8f74a1)
+- [GANGogh: Creating Art with GANs. Introduction](https://towardsdatascience.com/gangogh-creating-art-with-gans-8d087d8f74a1)
 
 
 - [How to Explore the GAN Latent Space When Generating Faces](https://machinelearningmastery.com/how-to-interpolate-and-perform-vector-arithmetic-with-faces-using-a-generative-adversarial-network/)
