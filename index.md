@@ -23,10 +23,10 @@ The second part of our project will involve training a supervised model that can
 
 ## Potential Results
 
-Below is a set of paintings that were computer generated using a model called CycleGAN. [3] [5] We want to use similar methods to generate novel paintings that are aesthetically pleasing and fit certain parameters that we describe.
+Below is a set of paintings that were computer generated using a model called CycleGAN. [3] [4] We want to use similar methods to generate novel paintings that are aesthetically pleasing and fit certain parameters that we describe.
 
 ![](https://miro.medium.com/max/875/1*CX690BeurSxHFJPSiGW1ow.png)
-[4]
+[5]
 
 ## Discussion
 
@@ -44,7 +44,7 @@ This project explores many recent advancements in machine learning and generativ
 - [GANGogh: Creating Art with GANs. Introduction](https://towardsdatascience.com/gangogh-creating-art-with-gans-8d087d8f74a1) [3]
     - Describes a novel project similar to ours
 
-- [Image Source](https://towardsdatascience.com/cyclegans-to-create-computer-generated-art-161082601709) [4]
-
-- [CycleGAN Paper](https://arxiv.org/abs/1703.10593) [5]
+- [CycleGAN Paper](https://arxiv.org/abs/1703.10593) [4]
     - Details the CycleGAN method referenced above
+- [Image Source](https://towardsdatascience.com/cyclegans-to-create-computer-generated-art-161082601709) [5]
+
