@@ -23,10 +23,10 @@ The second part of our project will involve training a supervised model that can
 
 ## Potential Results
 
-Below is a set of paintings that were computer generated using a model called CycleGAN. [3] [4] We want to use similar methods to generate novel paintings that are aesthetically pleasing and fit certain parameters that we describe.
+Below is a set of paintings that were computer generated using a model called CycleGAN. [2] [3] We want to use similar methods to generate novel paintings that are aesthetically pleasing and fit certain parameters that we describe.
 
 ![](https://miro.medium.com/max/875/1*CX690BeurSxHFJPSiGW1ow.png)
-[5]
+[4]
 
 ## Discussion
 
@@ -35,16 +35,13 @@ This project explores many recent advancements in machine learning and generativ
 
 ## References
 
-- [Generative Adversarial Nets](https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf) [1]
+- [Goodfellow, Ian, et al. "Generative adversarial nets." Advances in neural information processing systems. 2014.](https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf) [1]
     - Outlines general GAN approach and gives theoretical background
 
-- [A Gentle Introduction to Generative Adversarial Networks (GANs)](https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/) [2]
-    - Gives more general background and good information on GANs
-
-- [GANGogh: Creating Art with GANs. Introduction](https://towardsdatascience.com/gangogh-creating-art-with-gans-8d087d8f74a1) [3]
+- [GANGogh: Creating Art with GANs. Introduction](https://towardsdatascience.com/gangogh-creating-art-with-gans-8d087d8f74a1) [2]
     - Describes a novel project similar to ours
 
-- [CycleGAN Paper](https://arxiv.org/abs/1703.10593) [4]
-    - Details the CycleGAN method referenced above
-- [Image Source](https://towardsdatascience.com/cyclegans-to-create-computer-generated-art-161082601709) [5]
+- [Zhu, Jun-Yan, et al. "Unpaired image-to-image translation using cycle-consistent adversarial networks." Proceedings of the IEEE international conference on computer vision. 2017.](https://arxiv.org/abs/1703.10593) [3]
+
+- [Image Source](https://towardsdatascience.com/cyclegans-to-create-computer-generated-art-161082601709) [4]
 
