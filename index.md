@@ -16,12 +16,12 @@ The purpose of this architecture is to learn a Generator that can create data th
 
 ### 1.2 - Variational Autoencoders (VAEs)
 
-Variational Autoencoders are a type of neural network that attempts to learn a probability function p(z|x) mapping input data x to a latent space z, as well as a function p(x|z) that does the opposite mapping from a latent space z to the input domain x. VAEs have two parts:
+Variational Autoencoders are a type of neural network that attempts to learn a probability function p(z&#124;x) mapping input data x to a latent space z, as well as a function p(x&#124;z) that does the opposite mapping from a latent space z to the input domain x. VAEs have two parts:
 
 1. They have an Encoder that maps data from an input domain x(images, songs) to a typically smaller vector z that encodes the parameters of a probability distrubiton, typically Gaussian(in this case mean and standard deviation) 
 2. They have a Decoder that maps the compressed vector space z back to the input domain x using only the information from the vector.
 
-Both the encoder and decoder are trained using a combination of two optimization functions. One of the constraints encourages the minimization of reconstruction error, which is loosely how the input x differs from its reconstructed counterpart x'. The second term is a KL divergence term that encourages the mapping p(z|x) that the encoder learns to fit the same proability distribution p(z), which is typically Gaussian. The variational component of VAEs encourages the learning of robust representations that fit the initial data distribution. 
+Both the encoder and decoder are trained using a combination of two optimization functions. One of the constraints encourages the minimization of reconstruction error, which is loosely how the input x differs from its reconstructed counterpart x'. The second term is a KL divergence term that encourages the mapping p(z&#124;x) that the encoder learns to fit the same proability distribution p(z), which is typically Gaussian. The variational component of VAEs encourages the learning of robust representations that fit the initial data distribution. 
 
 ### 1.3 - Convolutional Neural Networks
 
@@ -47,7 +47,7 @@ Up until this point we have primarily done two experiments. One experiment was u
 
 We trained a GAN that uses sequences of convolutional layers to map from the latent vector z to the input distribution of images from the Best Artworks of All Time. This was a preliminary experiment that had the outputs outlined below. 
 
-![VanillaGAN](VanillaGANOutput.png)
+![VanillaGAN](img/VanillaGANOutput.png)
 
 ### 4.2 - CycleGAN experiment
 
