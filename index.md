@@ -2,7 +2,7 @@
 
 ## 1 - Introduction and Background
 
-Our project focuses primarily on the use of neural-network-based generative modeling for the rendering of realistic looking artwork. Recent advancements in deep learning, largely a result of modern computing architectures, have lead to the creation of models that can learn to generate realistic looking data. Models like Generative Adversarial Networks (GANs)[1], which we utilize in this project, learn a mapping from a latent vector space that encodes the features necessary to generate data to synthetic data in the domain of an input dataset. GANs do this useing a game theoretic approach of pitting two agents, a generator and a descriminator, against each other to help each other learn. Other approaches like Variational Autoencoders attempt to construct generative models of data by attempting to compress data and learn a reconstruction of the data. Our project focuses on using both GANs and VAEs to learn representations of paintings that allow for the generation of synthetic paintings. 
+Our project focuses primarily on the use of neural-network-based generative modeling for the rendering of realistic looking artwork. Recent advancements in deep learning, largely a result of modern computing architectures, have led to the creation of models that can learn to generate realistic looking data. Models like Generative Adversarial Networks (GANs)[1], which we utilize in this project, learn a mapping from a latent vector space that encodes the features necessary to generate data to synthetic data in the domain of an input dataset. GANs do this using a game theoretic approach of pitting two agents, a generator and a descriminator, against each other to help each other learn. Other approaches like Variational Autoencoders attempt to construct generative models of data by attempting to compress data and learn a reconstruction of the data. Our project focuses on using both GANs and VAEs to learn representations of paintings that allow for the generation of synthetic paintings. 
 
 ### 1.1 - Generative Adversarial Networks (GANs)
 
@@ -18,14 +18,14 @@ The purpose of this architecture is to learn a Generator that can create data th
 
 Variational Autoencoders are a type of neural network that attempts to learn a probability function p(z&#124;x) mapping input data x to a latent space z, as well as a function p(x&#124;z) that does the opposite mapping from a latent space z to the input domain x. VAEs have two parts:
 
-1. They have an Encoder that maps data from an input domain x(images, songs) to a typically smaller vector z that encodes the parameters of a probability distrubiton, typically Gaussian(in this case mean and standard deviation) 
+1. They have an Encoder that maps data from an input domain x(images, songs) to a typically smaller vector z that encodes the parameters of a probability distrubiton, typically Gaussian (in this case mean and standard deviation) 
 2. They have a Decoder that maps the compressed vector space z back to the input domain x using only the information from the vector.
 
 Both the encoder and decoder are trained using a combination of two optimization functions. One of the constraints encourages the minimization of reconstruction error, which is loosely how the input x differs from its reconstructed counterpart x'. The second term is a KL divergence term that encourages the mapping p(z&#124;x) that the encoder learns to fit the same proability distribution p(z), which is typically Gaussian. The variational component of VAEs encourages the learning of robust representations that fit the initial data distribution. 
 
 ### 1.3 - Convolutional Neural Networks
 
-Convolutional Neural Networks (CNNs) are deep learning models that employ "convolutional" filters that scan across the domain of an input distrubution to learn a desired output distribution. The key component of CNNs is the convolutional filter that moves across the X and Y spatial dimensions of images, computing a dot product at each location. These filters learn features that are equivariant (change independent) to translation. Images have many features, like eyes or ears in a face dataset, that can be present at any location in an image. CNNs allow the sharing of parameters across different the spatial dimensions of data thus lowering the size of the network necessary to learn certain patterns and avoiding all of the problems with having a larger netwrork like slower convergence, overfitting, and slower training time. We employ convolutional layers in our GANs as well as VAEs to more easily learn representations of the image data. 
+Convolutional Neural Networks (CNNs) are deep learning models that employ "convolutional" filters that scan across the domain of an input distrubution to learn a desired output distribution. The key component of CNNs is the convolutional filter that moves across the X and Y spatial dimensions of images, computing a dot product at each location. These filters learn features that are equivariant (change independent) to translation. Images have many features, like eyes or ears in a face dataset, that can be present at any location in an image. CNNs allow the sharing of parameters across different the spatial dimensions of data thus lowering the size of the network necessary to learn certain patterns and avoiding all of the problems with having a larger network like slower convergence, overfitting, and slower training time. We employ convolutional layers in our GANs as well as VAEs to more easily learn representations of the image data. 
 
 ### 1.4 - CycleGAN
 
@@ -37,7 +37,7 @@ We want to leverage novel machine learning methods to generate realistic looking
 
 ## 3 - Data Collection
 
-At this point in the project we primarily used a Kaggle dataset of the Best Artworks of All Time [5]. This dataset included mostly paintings from artitsts like Monet, Da Vinci, and Warhol. We prepared the data by fitting it to a 150x150 grid that shows the central part of the paintings. A secondary dataset that was used was the monet2photo dataset[6] that shows mappings between monet paintings and photos of the scenes that those paintings depict. 
+At this point in the project we primarily used a Kaggle dataset of the Best Artworks of All Time [5]. This dataset included mostly paintings from artists like Monet, Da Vinci, and Warhol. We prepared the data by fitting it to a 150x150 grid that shows the central part of the paintings. A secondary dataset that was used was the monet2photo dataset[6] that shows mappings between monet paintings and photos of the scenes that those paintings depict. 
 
 ## 4 - Methods and Results
 
