@@ -34,12 +34,13 @@ Typical autoencoders are capable of memorizing training data, but are not as goo
 
 ![VAE](img/image1.png)
 
-More formally, VAEs attempt to learn a probability function p(z|x), which maps input data x to a latent space z, as well as a function p(x|z), which does the opposite mapping from a latent space z to the input domain x. VAEs have two parts:
+
+More formally, VAEs attempt to learn a probability function p(z&#124;x), which maps input data x to a latent space z, as well as a function p(x&#124;z), which does the opposite mapping from a latent space z to the input domain x. VAEs have two parts:
 
 1. They have an Encoder that maps data from an input domain x (such as images, songs, etc.) to a typically smaller vector, z, which encodes the parameters of a probability distribution, typically Gaussian (in this case mean and standard deviation) 
 2. They have a Decoder that maps the compressed vector space z back to the input domain x using only the information from the vector.
 
-The above figure shows the typical VAE architecture. Both the encoder and decoder are trained using a combination of two optimization functions. One of the constraints encourages the minimization of reconstruction error, which is loosely how the input x differs from its reconstructed counterpart x'. The second term is a KL divergence term that encourages the mapping p(z|x) that the encoder learns to fit the same probability distribution p(z), which is typically Gaussian. The variational component of VAEs encourages the learning of robust representations that fit the initial data distribution. 
+The above figure shows the typical VAE architecture. Both the encoder and decoder are trained using a combination of two optimization functions. One of the constraints encourages the minimization of reconstruction error, which is loosely how the input x differs from its reconstructed counterpart x'. The second term is a KL divergence term that encourages the mapping p(z&#124;x) that the encoder learns to fit the same probability distribution p(z), which is typically Gaussian. The variational component of VAEs encourages the learning of robust representations that fit the initial data distribution. 
 
 ### 1.3 - Convolutional Neural Networks
 
