@@ -114,7 +114,7 @@ Real                    | Fake
 
 These results show a decrease in the vibrancy of the original monet paintings (left) and the mapped paintings (right). This makes sense as we were trying to make images look more realistic. The real world is less vibrantly colored then Monet’s imagination.
 
-Another experiment using pix2pix modeling using CycleGAN is shown below. Using the CMP Facade Database[10], as our dataset, we attempted to train a mapping from images of buildings, to artistic renderings of their facades based on object detection. The left side shows fake images, rendered based on the ground truth images to the right.
+Another experiment using pix2pix modeling using CycleGAN is shown below. Using the CMP Facade Database[10] as our dataset, we attempted to train a mapping from images of buildings, to artistic renderings of their facades based on object detection. The left side shows fake images, rendered based on the ground truth images to the right.
 
 Fake                    | Ground Truth
 ----------------------- | ------------------------
