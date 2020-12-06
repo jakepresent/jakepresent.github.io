@@ -114,7 +114,7 @@ Real                    | Fake
 
 These results show a decrease in the vibrancy of the original monet paintings (left) and the mapped paintings (right). This makes sense as we were trying to make images look more realistic. The real world is less vibrantly colored then Monet’s imagination.
 
-Another experiment using pix2pix modeling using CycleGAN is shown below. This dataset attempted to train a mapping from images of buildings, to artistic renderings of their facades based on object detection. The left side shows fake images, rendered based on the ground truth images to the right.
+Another experiment using pix2pix modeling using CycleGAN is shown below. Using the CMP Facade Database[10], as our dataset, we attempted to train a mapping from images of buildings, to artistic renderings of their facades based on object detection. The left side shows fake images, rendered based on the ground truth images to the right.
 
 Fake                    | Ground Truth
 ----------------------- | ------------------------
@@ -178,3 +178,5 @@ Generative Modeling is an exciting and fast-growing field within machine learnin
 - [Zhang, Zhaoyu, Mengyan Li, and Jun Yu. "On the convergence and mode collapse of gan." SIGGRAPH Asia 2018 Technical Briefs. 2018. 1-4.](https://dl.acm.org/doi/abs/10.1145/3283254.3283282?casa_token=JODS8Oy_uq8AAAAA:-nmBXGcOgIBGX9RP0zwsRI2yHXkTTWJ4CUzm1YT_rfpl_Yh3Si5R9KvdymaHzIVRp2Z88er9mFellA) [8]
 
 - [Iandola, Forrest N., et al. "SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and< 0.5 MB model size." arXiv preprint arXiv:1602.07360 (2016).](https://arxiv.org/abs/1602.07360) [9]
+
+- [CMP Facade Database](http://cmp.felk.cvut.cz/~tylecr1/facade/) [10]
