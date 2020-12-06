@@ -124,7 +124,7 @@ Fake                    | Ground Truth
 ![](img/image4.png)    | ![](img/image5.png)
 
 
-### 4.4 Style Transfer Experiments
+### 4.4 - Style Transfer Experiments
 
 For this experiment, we used a SqueezeNet[9] model, since it’s less complex computationally (can be run on a CPU) compared to other pre-trained models. To generate our style transfer images, a few hyperparameters needed to be tweaked to stylize the content image to a desired level.
 
