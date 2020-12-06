@@ -63,7 +63,7 @@ We want to leverage novel machine learning methods to generate realistic looking
 
 ## 3 - Data Collection
 
-We primarily used a Kaggle dataset of the Best Artworks of All Time [5]. This dataset included mostly paintings from artists like Monet, Da Vinci, and Warhol. We prepared the data by fitting it to a 150x150 grid that shows the central part of the paintings. A secondary dataset that was used was the monet2photo dataset[6] that shows mappings between monet paintings and photos of the scenes that those paintings depict. 
+We primarily used a Kaggle dataset of the Best Artworks of All Time [5]. This dataset included mostly paintings from artists like Monet, Da Vinci, and Warhol. We prepared the data by fitting it to a 150x150 grid that shows the central part of the paintings. A secondary dataset that was used was the monet2photo dataset[6] that shows mappings between monet paintings and photos of the scenes that those paintings depict. We also used the CMP Facade Dataset[10] briefly, which included rectified images of facades from various sources and their source images.
 
 
 ## 4 - Methods and Results
